@@ -1,0 +1,137 @@
+/* 1. Global design first : Body, Headers, Colors, Fonts, Font size, Font weight */
+
+body {
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: Helvetica;
+}
+
+/* 2. Appearance of html elements : Images, Links (buttons), Divs */
+
+#img-moi {
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.big-container {
+    background-color: white;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.mid-container {
+    background-color: rgba(90, 90, 90, 0.86);
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 7px;
+    margin: 10px 0px;
+    padding: 15px;
+}
+
+.row {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.9fr 1.1fr;
+    grid-gap: 20px;
+}
+
+.btn-noir {
+    background-color: #303443;
+    color: white;
+    padding: 10px 20px;
+    margin: 110px 20px 20px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-noir:hover {
+    background-color: black;
+    transition: 0.4s;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+
+#container1 {
+    background-image: url(images/blur1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-right: 130px;
+    height: 400px;
+}
+
+#container2 {
+    background-image: url(images/bastiensuquet.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+#container3 {
+    background-color: #303443;
+    color: #E3EEFF;
+    height: auto;
+}
+
+#container4 {
+    background-color: #6B5BE5;
+    height: auto;
+}
+
+
+h1, h2, h3 {
+    font-family: Helvetica;
+    text-align: left;
+    margin-left: 20px;  
+}
+
+h1 {
+    font-size: 28px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.logo {
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: 90px;
+    margin-right: 10px;
+    padding: 3px;
+}
+
+.logo:hover {
+    color: black;
+    transition: 0.4s;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.align {
+    display: flex;
+    align-items: center;
+}
